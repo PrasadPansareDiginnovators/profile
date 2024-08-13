@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  padding: 1rem;
+  background-color: white;
+  border-top: 1px solid #eaeaea;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+}
